@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: jp-stock-screening
+  cancel-in-progress: false
+
 jobs:
   screen:
     runs-on: ubuntu-latest
@@ -36,5 +40,6 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "chore: update daily screening results"
+            git pull --rebase origin main
             git push
           fi
