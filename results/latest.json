@@ -1,0 +1,140 @@
+{
+  "generated_at_utc": "2026-08-30T07:02:18.606715+00:00",
+  "universe_source": "fallback",
+  "universe_size": 40,
+  "analyzed_count": 40,
+  "top_candidates": [
+    {
+      "code": "8316",
+      "name": "三井住友フィナンシャルグループ",
+      "close": 6902.0,
+      "tech_score": 30,
+      "reasons": [
+        "移動平均は上昇トレンド",
+        "MACDゴールデンクロス",
+        "PER15.5倍（割安水準）",
+        "PBR1.63倍（割安水準）"
+      ],
+      "per": 15.5,
+      "pbr": 1.63,
+      "dividend_yield_pct": 1.96,
+      "fundamental_score": 20,
+      "score": 50
+    },
+    {
+      "code": "7751",
+      "name": "キヤノン",
+      "close": 4686.0,
+      "tech_score": 30,
+      "reasons": [
+        "移動平均は上昇トレンド",
+        "MACDゴールデンクロス",
+        "PER11.8倍（割安水準）",
+        "PBR1.14倍（割安水準）"
+      ],
+      "per": 11.8,
+      "pbr": 1.14,
+      "dividend_yield_pct": 3.41,
+      "fundamental_score": 20,
+      "score": 50
+    },
+    {
+      "code": "4901",
+      "name": "富士フイルムホールディングス",
+      "close": 3319.0,
+      "tech_score": 30,
+      "reasons": [
+        "移動平均は上昇トレンド",
+        "MACDゴールデンクロス",
+        "PER14.5倍（割安水準）",
+        "PBR1.02倍（割安水準）"
+      ],
+      "per": 14.5,
+      "pbr": 1.02,
+      "dividend_yield_pct": 2.26,
+      "fundamental_score": 20,
+      "score": 50
+    },
+    {
+      "code": "6902",
+      "name": "デンソー",
+      "close": 1915.5,
+      "tech_score": 10,
+      "reasons": [
+        "移動平均は上昇トレンド",
+        "PER11.8倍（割安水準）",
+        "PBR0.94倍（割安水準）",
+        "配当利回り3.86%（高水準）"
+      ],
+      "per": 11.8,
+      "pbr": 0.94,
+      "dividend_yield_pct": 3.86,
+      "fundamental_score": 30,
+      "score": 40
+    },
+    {
+      "code": "6367",
+      "name": "ダイキン工業",
+      "close": 20895.0,
+      "tech_score": 40,
+      "reasons": [
+        "RSI26（売られすぎ）",
+        "MACDゴールデンクロス"
+      ],
+      "per": 22.3,
+      "pbr": 1.94,
+      "dividend_yield_pct": 1.72,
+      "fundamental_score": 0,
+      "score": 40
+    },
+    {
+      "code": "9022",
+      "name": "東海旅客鉄道",
+      "close": 3935.0,
+      "tech_score": 10,
+      "reasons": [
+        "移動平均は上昇トレンド",
+        "PER6.9倍（割安水準）",
+        "PBR0.72倍（割安水準）",
+        "配当利回り81.0%（高水準）"
+      ],
+      "per": 6.9,
+      "pbr": 0.72,
+      "dividend_yield_pct": 81.0,
+      "fundamental_score": 30,
+      "score": 40
+    },
+    {
+      "code": "9984",
+      "name": "ソフトバンクグループ",
+      "close": 5161.0,
+      "tech_score": 0,
+      "reasons": [
+        "PER5.9倍（割安水準）",
+        "PBR1.61倍（割安水準）",
+        "配当利回り21.0%（高水準）"
+      ],
+      "per": 5.9,
+      "pbr": 1.61,
+      "dividend_yield_pct": 21.0,
+      "fundamental_score": 30,
+      "score": 30
+    },
+    {
+      "code": "9432",
+      "name": "日本電信電話",
+      "close": 168.6,
+      "tech_score": 10,
+      "reasons": [
+        "移動平均は上昇トレンド",
+        "PER13.4倍（割安水準）",
+        "PBR1.39倍（割安水準）"
+      ],
+      "per": 13.4,
+      "pbr": 1.39,
+      "dividend_yield_pct": 3.2,
+      "fundamental_score": 20,
+      "score": 30
+    }
+  ]
+}
