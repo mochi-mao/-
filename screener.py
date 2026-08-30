@@ -73,7 +73,7 @@ def load_universe_from_wikipedia():
     text = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", html, flags=re.S | re.I)
     text = re.sub(r"<[^>]+>", " ", text)
 
-    codes = re.findall(r"TYO:\s*([0-9][0-9A-Za-z]{2,4})", text)
+    codes = re.findall(r"TYO\s*:\s*([0-9][0-9A-Za-z]{2,4})", text)
     seen = set()
     uniq_codes = []
     for c in codes:
