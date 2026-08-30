@@ -1,12 +1,29 @@
 {
-  "generated_at_utc": "2026-08-30T07:12:20.172290+00:00",
+  "generated_at_utc": "2026-08-30T07:32:22.224659+00:00",
   "universe_source": "fallback",
   "universe_size": 40,
   "analyzed_count": 39,
   "top_candidates": [
     {
+      "code": "8316",
+      "name": "Sumitomo Mitsui Financial Group, Inc.",
+      "close": 6902.0,
+      "tech_score": 30,
+      "reasons": [
+        "移動平均は上昇トレンド",
+        "MACDゴールデンクロス",
+        "PER15.5倍（割安水準）",
+        "PBR1.63倍（割安水準）"
+      ],
+      "per": 15.5,
+      "pbr": 1.63,
+      "dividend_yield_pct": 1.96,
+      "fundamental_score": 20,
+      "score": 50
+    },
+    {
       "code": "7751",
-      "name": "キヤノン",
+      "name": "Canon Inc.",
       "close": 4686.0,
       "tech_score": 30,
       "reasons": [
@@ -23,7 +40,7 @@
     },
     {
       "code": "4901",
-      "name": "富士フイルムホールディングス",
+      "name": "FUJIFILM Holdings Corporation",
       "close": 3319.0,
       "tech_score": 30,
       "reasons": [
@@ -40,7 +57,7 @@
     },
     {
       "code": "6367",
-      "name": "ダイキン工業",
+      "name": "Daikin Industries,Ltd.",
       "close": 20895.0,
       "tech_score": 40,
       "reasons": [
@@ -54,41 +71,8 @@
       "score": 40
     },
     {
-      "code": "6902",
-      "name": "デンソー",
-      "close": 1915.5,
-      "tech_score": 10,
-      "reasons": [
-        "移動平均は上昇トレンド",
-        "PER11.8倍（割安水準）",
-        "PBR0.94倍（割安水準）",
-        "配当利回り3.86%（高水準）"
-      ],
-      "per": 11.8,
-      "pbr": 0.94,
-      "dividend_yield_pct": 3.86,
-      "fundamental_score": 30,
-      "score": 40
-    },
-    {
-      "code": "8316",
-      "name": "三井住友フィナンシャルグループ",
-      "close": 6902.0,
-      "tech_score": 30,
-      "reasons": [
-        "移動平均は上昇トレンド",
-        "MACDゴールデンクロス",
-        "PER15.5倍（割安水準）"
-      ],
-      "per": 15.5,
-      "pbr": 1.63,
-      "dividend_yield_pct": 1.96,
-      "fundamental_score": 10,
-      "score": 40
-    },
-    {
       "code": "9022",
-      "name": "東海旅客鉄道",
+      "name": "Central Japan Railway Company",
       "close": 3935.0,
       "tech_score": 10,
       "reasons": [
@@ -105,7 +89,7 @@
     },
     {
       "code": "9984",
-      "name": "ソフトバンクグループ",
+      "name": "SoftBank Group Corp.",
       "close": 5161.0,
       "tech_score": 0,
       "reasons": [
@@ -121,7 +105,7 @@
     },
     {
       "code": "9432",
-      "name": "日本電信電話",
+      "name": "NTT, Inc.",
       "close": 168.6,
       "tech_score": 10,
       "reasons": [
@@ -132,6 +116,22 @@
       "per": 13.4,
       "pbr": 1.39,
       "dividend_yield_pct": 3.2,
+      "fundamental_score": 20,
+      "score": 30
+    },
+    {
+      "code": "6902",
+      "name": "DENSO Corporation",
+      "close": 1915.5,
+      "tech_score": 10,
+      "reasons": [
+        "移動平均は上昇トレンド",
+        "PER11.8倍（割安水準）",
+        "PBR0.94倍（割安水準）"
+      ],
+      "per": 11.8,
+      "pbr": 0.94,
+      "dividend_yield_pct": 3.86,
       "fundamental_score": 20,
       "score": 30
     }
