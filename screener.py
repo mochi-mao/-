@@ -137,64 +137,74 @@ def analyze_ticker(code, name):
         last = -1
         prev = -2
 
-        reasons = []
-        score = 0
+        # テクニカル分析の理由・スコアは fundamental とは別に保持する
+        tech_reasons = []
+        tech_score = 0
 
         # --- ゴールデンクロス ---
         if sma75.iloc[prev] is not None and not pd.isna(sma75.iloc[-4]):
             cross_now = sma25.iloc[last] > sma75.iloc[last]
             cross_before = sma25.iloc[-4] <= sma75.iloc[-4]
             if cross_now and cross_before:
-                score += 25
-                reasons.append("移動平均ゴールデンクロス")
+                tech_score += 25
+                tech_reasons.append("移動平均ゴールデンクロス")
             elif cross_now:
-                score += 10
-                reasons.append("移動平均は上昇トレンド")
+                tech_score += 10
+                tech_reasons.append("移動平均は上昇トレンド")
 
         # --- RSI 反発 ---
         if not pd.isna(rsi14.iloc[last]):
             r_now = rsi14.iloc[last]
             r_prev = rsi14.iloc[prev]
             if r_now < 35:
-                score += 20
+                tech_score += 20
                 if r_now > r_prev:
-                    score += 10
-                    reasons.append(f"RSI{r_now:.0f}→反発")
+                    tech_score += 10
+                    tech_reasons.append(f"RSI{r_now:.0f}→反発")
                 else:
-                    reasons.append(f"RSI{r_now:.0f}（売られすぎ）")
+                    tech_reasons.append(f"RSI{r_now:.0f}（売られすぎ）")
 
         # --- MACD ゴールデンクロス ---
         if not pd.isna(macd_line.iloc[-4]):
             cross_now = macd_line.iloc[last] > signal_line.iloc[last]
             cross_before = macd_line.iloc[-4] <= signal_line.iloc[-4]
             if cross_now and cross_before:
-                score += 20
-                reasons.append("MACDゴールデンクロス")
+                tech_score += 20
+                tech_reasons.append("MACDゴールデンクロス")
 
         # --- 出来高急増 ---
         if not pd.isna(vol_avg20.iloc[last]) and vol_avg20.iloc[last] > 0:
             ratio = volume.iloc[last] / vol_avg20.iloc[last]
             if ratio >= 2:
-                score += 15
-                reasons.append(f"出来高急増({ratio:.1f}倍)")
+                tech_score += 15
+                tech_reasons.append(f"出来高急増({ratio:.1f}倍)")
             elif ratio >= 1.5:
-                score += 8
-                reasons.append(f"出来高増加({ratio:.1f}倍)")
+                tech_score += 8
+                tech_reasons.append(f"出来高増加({ratio:.1f}倍)")
 
         # --- 52週安値からの反発 ---
         low_52w = close.min()
         recent_min = close.iloc[-5:].min()
         cur = close.iloc[last]
         if low_52w > 0 and cur <= low_52w * 1.08 and cur >= recent_min * 1.03:
-            score += 15
-            reasons.append("52週安値圏から反発")
+            tech_score += 15
+            tech_reasons.append("52週安値圏から反発")
+
+        tech_score = min(100, tech_score)
 
         result = {
             "code": code,
             "name": name,
             "close": round(float(cur), 1),
-            "tech_score": score,
-            "reasons": reasons,
+            # テクニカル分析（移動平均・RSI・MACD・出来高・52週安値）
+            "tech_score": tech_score,
+            "tech_reasons": tech_reasons,
+            # ファンダメンタル分析（PER・PBR・配当利回り）。値は下で埋める
+            "fundamental_score": 0,
+            "fundamental_reasons": [],
+            "per": None,
+            "pbr": None,
+            "dividend_yield_pct": None,
         }
 
         # --- ファンダメンタル（取得できる範囲で。失敗しても続行） ---
@@ -216,9 +226,7 @@ def analyze_ticker(code, name):
                 else (round(div_yield, 2) if isinstance(div_yield, (int, float)) else None)
             )
         except Exception:
-            result["per"] = None
-            result["pbr"] = None
-            result["dividend_yield_pct"] = None
+            pass  # PER/PBR/配当利回りは取得できなくても続行（Noneのまま）
 
         return result
     except Exception as e:
@@ -239,24 +247,34 @@ def add_fundamental_score(results):
         idx = sum(1 for v in pool_sorted if v <= value)
         return idx / len(pool_sorted)
 
+    RAW_FUNDAMENTAL_MAX = 30  # PER+PBR+配当利回りの各10点満点の合計
+
     for r in results:
-        fscore = 0
+        fscore_raw = 0
+        fund_reasons = []
         per_pct = percentile_rank(r.get("per"), pers)
         pbr_pct = percentile_rank(r.get("pbr"), pbrs)
         div_pct = percentile_rank(r.get("dividend_yield_pct"), divs)
 
         if per_pct is not None and per_pct <= 0.3:
-            fscore += 10
-            r["reasons"].append(f"PER{r['per']}倍（割安水準）")
+            fscore_raw += 10
+            fund_reasons.append(f"PER{r['per']}倍（同業界内で割安水準）")
         if pbr_pct is not None and pbr_pct <= 0.3:
-            fscore += 10
-            r["reasons"].append(f"PBR{r['pbr']}倍（割安水準）")
+            fscore_raw += 10
+            fund_reasons.append(f"PBR{r['pbr']}倍（同業界内で割安水準）")
         if div_pct is not None and div_pct >= 0.7:
-            fscore += 10
-            r["reasons"].append(f"配当利回り{r['dividend_yield_pct']}%（高水準）")
+            fscore_raw += 10
+            fund_reasons.append(f"配当利回り{r['dividend_yield_pct']}%（相対的に高水準）")
 
-        r["fundamental_score"] = fscore
-        r["score"] = min(100, r["tech_score"] + fscore)
+        if not fund_reasons:
+            fund_reasons.append("突出した割安・高配当シグナルなし")
+
+        # テクニカル・ファンダを同じ0〜100スケールに揃えて総合評価を出す
+        fscore_100 = round(fscore_raw / RAW_FUNDAMENTAL_MAX * 100)
+
+        r["fundamental_score"] = fscore_100
+        r["fundamental_reasons"] = fund_reasons
+        r["score"] = round((r["tech_score"] + fscore_100) / 2)
 
     return results
 
