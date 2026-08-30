@@ -17,12 +17,14 @@ import concurrent.futures
 import csv
 import json
 import os
+import re
 import sys
 import time
 import warnings
 from datetime import datetime, timezone
 
 import pandas as pd
+import requests
 import yfinance as yf
 
 warnings.filterwarnings("ignore")
@@ -46,39 +48,45 @@ def load_fallback_universe():
 
 def load_universe_from_wikipedia():
     """
-    英語版Wikipedia「Nikkei 225」のconstituentsテーブルから
-    証券コードと銘柄名を取得する。取得できなければ None を返す。
+    英語版Wikipedia「Nikkei 225」のページから構成銘柄の証券コードを取得する。
+
+    このページは表形式ではなく「Company Name (TYO: CODE)」という
+    文章内リスト形式で構成銘柄が列挙されているため、HTMLタグを除去した
+    テキストに対して正規表現でコードを抽出する。
+    銘柄名はここでは仮値とし、後段でyfinanceから取得した正式名称で上書きする。
+
+    取得できない・件数が少なすぎる場合は None を返す（呼び出し元でフォールバック）。
     """
     try:
-        tables = pd.read_html(
+        resp = requests.get(
             "https://en.wikipedia.org/wiki/Nikkei_225",
-            match="Code",
+            headers={"User-Agent": "Mozilla/5.0 (compatible; jp-stock-screener/1.0)"},
+            timeout=20,
         )
+        resp.raise_for_status()
+        html = resp.text
     except Exception as e:
-        print(f"[warn] Wikipedia constituents fetch failed: {e}", file=sys.stderr)
+        print(f"[warn] Wikipedia fetch failed: {e}", file=sys.stderr)
         return None
 
-    for table in tables:
-        cols = {str(c).strip().lower(): c for c in table.columns}
-        code_col = None
-        name_col = None
-        for key, orig in cols.items():
-            if "code" in key and code_col is None:
-                code_col = orig
-            if ("company" in key or "name" in key) and name_col is None:
-                name_col = orig
-        if code_col is None:
-            continue
-        rows = []
-        for _, r in table.iterrows():
-            code = str(r[code_col]).strip()
-            code = "".join(ch for ch in code if ch.isdigit())
-            if len(code) != 4:
-                continue
-            name = str(r[name_col]).strip() if name_col is not None else code
-            rows.append({"code": code, "name": name})
-        if len(rows) >= 100:  # それらしい件数が取れていれば採用
-            return rows
+    # スクリプト/スタイルとタグを除去してプレーンテキスト化
+    text = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", html, flags=re.S | re.I)
+    text = re.sub(r"<[^>]+>", " ", text)
+
+    codes = re.findall(r"TYO:\s*([0-9][0-9A-Za-z]{2,4})", text)
+    seen = set()
+    uniq_codes = []
+    for c in codes:
+        c = c.strip()
+        if c and c not in seen:
+            seen.add(c)
+            uniq_codes.append(c)
+
+    if len(uniq_codes) >= 150:  # 日経225相当の件数が取れていれば採用
+        return [{"code": c, "name": c} for c in uniq_codes]
+
+    print(f"[warn] Wikipedia parse only found {len(uniq_codes)} codes, using fallback",
+          file=sys.stderr)
     return None
 
 
@@ -192,6 +200,11 @@ def analyze_ticker(code, name):
         # --- ファンダメンタル（取得できる範囲で。失敗しても続行） ---
         try:
             info = yf.Ticker(ticker).get_info()
+            # Wikipediaから取得した場合、name はコードそのままの仮値なので
+            # yfinanceの正式名称（取得できれば）で上書きする
+            official_name = info.get("longName") or info.get("shortName")
+            if official_name:
+                result["name"] = official_name
             per = info.get("trailingPE")
             pbr = info.get("priceToBook")
             div_yield = info.get("dividendYield")
