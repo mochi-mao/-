@@ -1,26 +1,9 @@
 {
-  "generated_at_utc": "2026-08-30T07:02:18.606715+00:00",
+  "generated_at_utc": "2026-08-30T07:12:20.172290+00:00",
   "universe_source": "fallback",
   "universe_size": 40,
-  "analyzed_count": 40,
+  "analyzed_count": 39,
   "top_candidates": [
-    {
-      "code": "8316",
-      "name": "三井住友フィナンシャルグループ",
-      "close": 6902.0,
-      "tech_score": 30,
-      "reasons": [
-        "移動平均は上昇トレンド",
-        "MACDゴールデンクロス",
-        "PER15.5倍（割安水準）",
-        "PBR1.63倍（割安水準）"
-      ],
-      "per": 15.5,
-      "pbr": 1.63,
-      "dividend_yield_pct": 1.96,
-      "fundamental_score": 20,
-      "score": 50
-    },
     {
       "code": "7751",
       "name": "キヤノン",
@@ -56,6 +39,21 @@
       "score": 50
     },
     {
+      "code": "6367",
+      "name": "ダイキン工業",
+      "close": 20895.0,
+      "tech_score": 40,
+      "reasons": [
+        "RSI26（売られすぎ）",
+        "MACDゴールデンクロス"
+      ],
+      "per": 22.3,
+      "pbr": 1.94,
+      "dividend_yield_pct": 1.72,
+      "fundamental_score": 0,
+      "score": 40
+    },
+    {
       "code": "6902",
       "name": "デンソー",
       "close": 1915.5,
@@ -73,18 +71,19 @@
       "score": 40
     },
     {
-      "code": "6367",
-      "name": "ダイキン工業",
-      "close": 20895.0,
-      "tech_score": 40,
+      "code": "8316",
+      "name": "三井住友フィナンシャルグループ",
+      "close": 6902.0,
+      "tech_score": 30,
       "reasons": [
-        "RSI26（売られすぎ）",
-        "MACDゴールデンクロス"
+        "移動平均は上昇トレンド",
+        "MACDゴールデンクロス",
+        "PER15.5倍（割安水準）"
       ],
-      "per": 22.3,
-      "pbr": 1.94,
-      "dividend_yield_pct": 1.72,
-      "fundamental_score": 0,
+      "per": 15.5,
+      "pbr": 1.63,
+      "dividend_yield_pct": 1.96,
+      "fundamental_score": 10,
       "score": 40
     },
     {
