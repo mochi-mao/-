@@ -1,36 +1,28 @@
 name: Daily JP Stock Screening
-
 on:
   schedule:
     # UTC 22:10 (日曜〜木曜) = 日本時間 翌7:10（月〜金）
     - cron: "10 22 * * 0-4"
   workflow_dispatch: {}
-
 permissions:
   contents: write
-
 concurrency:
   group: jp-stock-screening
   cancel-in-progress: false
-
 jobs:
   screen:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
       - name: Install dependencies
         run: pip install -r requirements.txt
-
       - name: Run screener
         run: python screener.py
-
       - name: Commit and push results
         run: |
           git config user.name "github-actions[bot]"
@@ -43,3 +35,7 @@ jobs:
             git pull --rebase origin main
             git push
           fi
+      - name: Send Slack notification
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: python notify.py
