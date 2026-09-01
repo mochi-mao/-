@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-09-01T14:13:46.028943+00:00",
+  "generated_at_utc": "2026-09-01T22:19:54.817473+00:00",
   "universe_source": "wikipedia",
   "universe_size": 225,
-  "analyzed_count": 225,
+  "analyzed_count": 224,
   "top_candidates": [
     {
       "code": "7202",
@@ -77,11 +77,11 @@
       "fundamental_reasons": [
         "PER7.0倍（同業界内で割安水準）",
         "PBR0.73倍（同業界内で割安水準）",
-        "配当利回り81.0%（相対的に高水準）"
+        "配当利回り80.0%（相対的に高水準）"
       ],
       "per": 7.0,
       "pbr": 0.73,
-      "dividend_yield_pct": 81.0,
+      "dividend_yield_pct": 80.0,
       "score": 65
     },
     {
@@ -97,11 +97,11 @@
       "fundamental_reasons": [
         "PER8.7倍（同業界内で割安水準）",
         "PBR0.65倍（同業界内で割安水準）",
-        "配当利回り3.95%（相対的に高水準）"
+        "配当利回り3.96%（相対的に高水準）"
       ],
       "per": 8.7,
       "pbr": 0.65,
-      "dividend_yield_pct": 3.95,
+      "dividend_yield_pct": 3.96,
       "score": 65
     },
     {
@@ -135,11 +135,11 @@
       "fundamental_reasons": [
         "PER8.7倍（同業界内で割安水準）",
         "PBR1.04倍（同業界内で割安水準）",
-        "配当利回り4.26%（相対的に高水準）"
+        "配当利回り4.24%（相対的に高水準）"
       ],
       "per": 8.7,
       "pbr": 1.04,
-      "dividend_yield_pct": 4.26,
+      "dividend_yield_pct": 4.24,
       "score": 55
     },
     {
