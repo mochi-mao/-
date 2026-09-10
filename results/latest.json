@@ -1,161 +1,163 @@
 {
-  "generated_at_utc": "2026-09-09T22:20:36.063271+00:00",
+  "generated_at_utc": "2026-09-10T22:20:17.941228+00:00",
   "universe_source": "wikipedia",
   "universe_size": 225,
   "analyzed_count": 225,
   "top_candidates": [
     {
-      "code": "1928",
-      "name": "Sekisui House, Ltd.",
-      "close": 3321.0,
-      "tech_score": 38,
-      "tech_reasons": [
-        "移動平均は上昇トレンド",
-        "RSI32（売られすぎ）",
-        "出来高増加(1.6倍)"
-      ],
-      "fundamental_score": 100,
-      "fundamental_reasons": [
-        "PER8.3倍（同業界内で割安水準）",
-        "PBR1.0倍（同業界内で割安水準）",
-        "配当利回り4.42%（相対的に高水準）"
-      ],
-      "per": 8.3,
-      "pbr": 1.0,
-      "dividend_yield_pct": 4.42,
-      "score": 69
-    },
-    {
-      "code": "7203",
-      "name": "Toyota Motor Corporation",
-      "close": 2971.0,
-      "tech_score": 10,
-      "tech_reasons": [
-        "移動平均は上昇トレンド"
-      ],
-      "fundamental_score": 100,
-      "fundamental_reasons": [
-        "PER8.4倍（同業界内で割安水準）",
-        "PBR0.94倍（同業界内で割安水準）",
-        "配当利回り3.37%（相対的に高水準）"
-      ],
-      "per": 8.4,
-      "pbr": 0.94,
-      "dividend_yield_pct": 3.37,
-      "score": 55
-    },
-    {
       "code": "4208",
       "name": "UBE Corporation",
-      "close": 3416.0,
-      "tech_score": 10,
+      "close": 3408.0,
+      "tech_score": 30,
       "tech_reasons": [
-        "移動平均は上昇トレンド"
+        "移動平均は上昇トレンド",
+        "RSI33（売られすぎ）"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER13.8倍（同業界内で割安水準）",
-        "PBR0.76倍（同業界内で割安水準）",
-        "配当利回り4.72%（相対的に高水準）"
+        "PER13.9倍（同業界内で割安水準）",
+        "PBR0.75倍（同業界内で割安水準）",
+        "配当利回り4.68%（相対的に高水準）"
       ],
-      "per": 13.8,
-      "pbr": 0.76,
-      "dividend_yield_pct": 4.72,
-      "score": 55
+      "per": 13.9,
+      "pbr": 0.75,
+      "dividend_yield_pct": 4.68,
+      "score": 65
     },
     {
       "code": "7751",
       "name": "Canon Inc.",
-      "close": 4317.0,
+      "close": 4338.0,
+      "tech_score": 30,
+      "tech_reasons": [
+        "移動平均は上昇トレンド",
+        "RSI31（売られすぎ）"
+      ],
+      "fundamental_score": 100,
+      "fundamental_reasons": [
+        "PER10.9倍（同業界内で割安水準）",
+        "PBR1.06倍（同業界内で割安水準）",
+        "配当利回り3.71%（相対的に高水準）"
+      ],
+      "per": 10.9,
+      "pbr": 1.06,
+      "dividend_yield_pct": 3.71,
+      "score": 65
+    },
+    {
+      "code": "3289",
+      "name": "Tokyu Fudosan Holdings Corporation",
+      "close": 1291.0,
+      "tech_score": 30,
+      "tech_reasons": [
+        "移動平均は上昇トレンド",
+        "RSI32（売られすぎ）"
+      ],
+      "fundamental_score": 100,
+      "fundamental_reasons": [
+        "PER9.6倍（同業界内で割安水準）",
+        "PBR1.01倍（同業界内で割安水準）",
+        "配当利回り3.84%（相対的に高水準）"
+      ],
+      "per": 9.6,
+      "pbr": 1.01,
+      "dividend_yield_pct": 3.84,
+      "score": 65
+    },
+    {
+      "code": "1928",
+      "name": "Sekisui House, Ltd.",
+      "close": 3372.0,
+      "tech_score": 18,
+      "tech_reasons": [
+        "移動平均は上昇トレンド",
+        "出来高増加(1.7倍)"
+      ],
+      "fundamental_score": 100,
+      "fundamental_reasons": [
+        "PER8.4倍（同業界内で割安水準）",
+        "PBR1.01倍（同業界内で割安水準）",
+        "配当利回り4.4%（相対的に高水準）"
+      ],
+      "per": 8.4,
+      "pbr": 1.01,
+      "dividend_yield_pct": 4.4,
+      "score": 59
+    },
+    {
+      "code": "7203",
+      "name": "Toyota Motor Corporation",
+      "close": 2994.0,
       "tech_score": 10,
       "tech_reasons": [
         "移動平均は上昇トレンド"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER11.0倍（同業界内で割安水準）",
-        "PBR1.05倍（同業界内で割安水準）",
-        "配当利回り3.67%（相対的に高水準）"
+        "PER8.5倍（同業界内で割安水準）",
+        "PBR0.95倍（同業界内で割安水準）",
+        "配当利回り3.37%（相対的に高水準）"
       ],
-      "per": 11.0,
-      "pbr": 1.05,
-      "dividend_yield_pct": 3.67,
+      "per": 8.5,
+      "pbr": 0.95,
+      "dividend_yield_pct": 3.37,
       "score": 55
     },
     {
       "code": "8253",
       "name": "Credit Saison Co., Ltd.",
-      "close": 4555.0,
+      "close": 4581.0,
       "tech_score": 10,
       "tech_reasons": [
         "移動平均は上昇トレンド"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER10.8倍（同業界内で割安水準）",
+        "PER10.7倍（同業界内で割安水準）",
         "PBR0.85倍（同業界内で割安水準）",
-        "配当利回り3.5%（相対的に高水準）"
+        "配当利回り3.51%（相対的に高水準）"
       ],
-      "per": 10.8,
+      "per": 10.7,
       "pbr": 0.85,
-      "dividend_yield_pct": 3.5,
+      "dividend_yield_pct": 3.51,
       "score": 55
     },
     {
       "code": "3861",
       "name": "Oji Holdings Corporation",
-      "close": 864.0,
+      "close": 859.9,
       "tech_score": 10,
       "tech_reasons": [
         "移動平均は上昇トレンド"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER14.2倍（同業界内で割安水準）",
-        "PBR0.68倍（同業界内で割安水準）",
-        "配当利回り4.14%（相対的に高水準）"
+        "PER14.1倍（同業界内で割安水準）",
+        "PBR0.67倍（同業界内で割安水準）",
+        "配当利回り4.17%（相対的に高水準）"
       ],
-      "per": 14.2,
-      "pbr": 0.68,
-      "dividend_yield_pct": 4.14,
+      "per": 14.1,
+      "pbr": 0.67,
+      "dividend_yield_pct": 4.17,
       "score": 55
     },
     {
       "code": "9022",
       "name": "Central Japan Railway Company",
-      "close": 3865.0,
+      "close": 3834.0,
       "tech_score": 10,
       "tech_reasons": [
         "移動平均は上昇トレンド"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER6.7倍（同業界内で割安水準）",
-        "PBR0.71倍（同業界内で割安水準）",
+        "PER6.8倍（同業界内で割安水準）",
+        "PBR0.7倍（同業界内で割安水準）",
         "配当利回り83.0%（相対的に高水準）"
       ],
-      "per": 6.7,
-      "pbr": 0.71,
+      "per": 6.8,
+      "pbr": 0.7,
       "dividend_yield_pct": 83.0,
-      "score": 55
-    },
-    {
-      "code": "3289",
-      "name": "Tokyu Fudosan Holdings Corporation",
-      "close": 1303.5,
-      "tech_score": 10,
-      "tech_reasons": [
-        "移動平均は上昇トレンド"
-      ],
-      "fundamental_score": 100,
-      "fundamental_reasons": [
-        "PER9.6倍（同業界内で割安水準）",
-        "PBR1.02倍（同業界内で割安水準）",
-        "配当利回り3.84%（相対的に高水準）"
-      ],
-      "per": 9.6,
-      "pbr": 1.02,
-      "dividend_yield_pct": 3.84,
       "score": 55
     }
   ]
