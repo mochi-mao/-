@@ -1,33 +1,33 @@
 {
-  "generated_at_utc": "2026-10-07T01:29:10.152471+00:00",
+  "generated_at_utc": "2026-10-08T01:52:32.064018+00:00",
   "universe_source": "wikipedia",
   "universe_size": 225,
   "analyzed_count": 225,
   "top_candidates": [
     {
-      "code": "4208",
-      "name": "UBE Corporation",
-      "close": 3394.0,
-      "tech_score": 30,
+      "code": "1925",
+      "name": "Daiwa House Industry Co., Ltd.",
+      "close": 2131.0,
+      "tech_score": 40,
       "tech_reasons": [
         "移動平均は上昇トレンド",
-        "MACDゴールデンクロス"
+        "RSI33→反発"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER13.7倍（同業界内で割安水準）",
-        "PBR0.75倍（同業界内で割安水準）",
-        "配当利回り4.74%（相対的に高水準）"
+        "PER7.5倍（同業界内で割安水準）",
+        "PBR0.91倍（同業界内で割安水準）",
+        "配当利回り4.27%（相対的に高水準）"
       ],
-      "per": 13.7,
-      "pbr": 0.75,
-      "dividend_yield_pct": 4.74,
-      "score": 65
+      "per": 7.5,
+      "pbr": 0.91,
+      "dividend_yield_pct": 4.27,
+      "score": 70
     },
     {
       "code": "9022",
       "name": "Central Japan Railway Company",
-      "close": 3593.0,
+      "close": 3553.0,
       "tech_score": 30,
       "tech_reasons": [
         "移動平均は上昇トレンド",
@@ -35,77 +35,57 @@
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER6.4倍（同業界内で割安水準）",
-        "PBR0.66倍（同業界内で割安水準）",
+        "PER6.3倍（同業界内で割安水準）",
+        "PBR0.65倍（同業界内で割安水準）",
         "配当利回り89.0%（相対的に高水準）"
       ],
-      "per": 6.4,
-      "pbr": 0.66,
+      "per": 6.3,
+      "pbr": 0.65,
       "dividend_yield_pct": 89.0,
-      "score": 65
-    },
-    {
-      "code": "9021",
-      "name": "West Japan Railway Company",
-      "close": 2856.0,
-      "tech_score": 30,
-      "tech_reasons": [
-        "移動平均は上昇トレンド",
-        "RSI29（売られすぎ）"
-      ],
-      "fundamental_score": 100,
-      "fundamental_reasons": [
-        "PER10.4倍（同業界内で割安水準）",
-        "PBR1.06倍（同業界内で割安水準）",
-        "配当利回り3.54%（相対的に高水準）"
-      ],
-      "per": 10.4,
-      "pbr": 1.06,
-      "dividend_yield_pct": 3.54,
-      "score": 65
-    },
-    {
-      "code": "3289",
-      "name": "Tokyu Fudosan Holdings Corporation",
-      "close": 1198.5,
-      "tech_score": 30,
-      "tech_reasons": [
-        "RSI30→反発"
-      ],
-      "fundamental_score": 100,
-      "fundamental_reasons": [
-        "PER8.9倍（同業界内で割安水準）",
-        "PBR0.94倍（同業界内で割安水準）",
-        "配当利回り4.2%（相対的に高水準）"
-      ],
-      "per": 8.9,
-      "pbr": 0.94,
-      "dividend_yield_pct": 4.2,
       "score": 65
     },
     {
       "code": "8253",
       "name": "Credit Saison Co., Ltd.",
-      "close": 4383.0,
+      "close": 4188.0,
       "tech_score": 20,
       "tech_reasons": [
-        "RSI32（売られすぎ）"
+        "RSI27（売られすぎ）"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER10.3倍（同業界内で割安水準）",
-        "PBR0.82倍（同業界内で割安水準）",
-        "配当利回り3.66%（相対的に高水準）"
+        "PER10.0倍（同業界内で割安水準）",
+        "PBR0.78倍（同業界内で割安水準）",
+        "配当利回り3.65%（相対的に高水準）"
       ],
-      "per": 10.3,
-      "pbr": 0.82,
-      "dividend_yield_pct": 3.66,
+      "per": 10.0,
+      "pbr": 0.78,
+      "dividend_yield_pct": 3.65,
+      "score": 60
+    },
+    {
+      "code": "3289",
+      "name": "Tokyu Fudosan Holdings Corporation",
+      "close": 1170.5,
+      "tech_score": 20,
+      "tech_reasons": [
+        "RSI24（売られすぎ）"
+      ],
+      "fundamental_score": 100,
+      "fundamental_reasons": [
+        "PER8.7倍（同業界内で割安水準）",
+        "PBR0.92倍（同業界内で割安水準）",
+        "配当利回り4.21%（相対的に高水準）"
+      ],
+      "per": 8.7,
+      "pbr": 0.92,
+      "dividend_yield_pct": 4.21,
       "score": 60
     },
     {
       "code": "7202",
       "name": "Isuzu Motors Limited",
-      "close": 2095.0,
+      "close": 2104.5,
       "tech_score": 15,
       "tech_reasons": [
         "52週安値圏から反発"
@@ -114,49 +94,68 @@
       "fundamental_reasons": [
         "PER10.7倍（同業界内で割安水準）",
         "PBR0.96倍（同業界内で割安水準）",
-        "配当利回り4.59%（相対的に高水準）"
+        "配当利回り4.54%（相対的に高水準）"
       ],
       "per": 10.7,
       "pbr": 0.96,
-      "dividend_yield_pct": 4.59,
+      "dividend_yield_pct": 4.54,
       "score": 58
     },
     {
-      "code": "7203",
-      "name": "Toyota Motor Corporation",
-      "close": 2931.5,
+      "code": "4208",
+      "name": "UBE Corporation",
+      "close": 3340.0,
       "tech_score": 10,
       "tech_reasons": [
         "移動平均は上昇トレンド"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER8.2倍（同業界内で割安水準）",
-        "PBR0.93倍（同業界内で割安水準）",
-        "配当利回り3.46%（相対的に高水準）"
+        "PER13.6倍（同業界内で割安水準）",
+        "PBR0.74倍（同業界内で割安水準）",
+        "配当利回り4.71%（相対的に高水準）"
       ],
-      "per": 8.2,
-      "pbr": 0.93,
-      "dividend_yield_pct": 3.46,
+      "per": 13.6,
+      "pbr": 0.74,
+      "dividend_yield_pct": 4.71,
       "score": 55
     },
     {
-      "code": "1925",
-      "name": "Daiwa House Industry Co., Ltd.",
-      "close": 2179.0,
+      "code": "3861",
+      "name": "Oji Holdings Corporation",
+      "close": 822.6,
       "tech_score": 10,
       "tech_reasons": [
         "移動平均は上昇トレンド"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER7.7倍（同業界内で割安水準）",
-        "PBR0.93倍（同業界内で割安水準）",
-        "配当利回り4.27%（相対的に高水準）"
+        "PER13.5倍（同業界内で割安水準）",
+        "PBR0.64倍（同業界内で割安水準）",
+        "配当利回り4.34%（相対的に高水準）"
       ],
-      "per": 7.7,
-      "pbr": 0.93,
-      "dividend_yield_pct": 4.27,
+      "per": 13.5,
+      "pbr": 0.64,
+      "dividend_yield_pct": 4.34,
+      "score": 55
+    },
+    {
+      "code": "5406",
+      "name": "Kobe Steel, Ltd.",
+      "close": 1988.5,
+      "tech_score": 10,
+      "tech_reasons": [
+        "移動平均は上昇トレンド"
+      ],
+      "fundamental_score": 100,
+      "fundamental_reasons": [
+        "PER8.4倍（同業界内で割安水準）",
+        "PBR0.62倍（同業界内で割安水準）",
+        "配当利回り3.95%（相対的に高水準）"
+      ],
+      "per": 8.4,
+      "pbr": 0.62,
+      "dividend_yield_pct": 3.95,
       "score": 55
     }
   ]
