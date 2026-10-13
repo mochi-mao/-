@@ -1,164 +1,162 @@
 {
-  "generated_at_utc": "2026-10-12T01:16:07.209356+00:00",
+  "generated_at_utc": "2026-10-13T03:00:33.896545+00:00",
   "universe_source": "wikipedia",
   "universe_size": 225,
   "analyzed_count": 225,
   "top_candidates": [
     {
-      "code": "9022",
-      "name": "Central Japan Railway Company",
-      "close": 3633.0,
-      "tech_score": 40,
-      "tech_reasons": [
-        "移動平均は上昇トレンド",
-        "RSI35→反発"
-      ],
-      "fundamental_score": 100,
-      "fundamental_reasons": [
-        "PER6.4倍（同業界内で割安水準）",
-        "PBR0.67倍（同業界内で割安水準）",
-        "配当利回り89.0%（相対的に高水準）"
-      ],
-      "per": 6.4,
-      "pbr": 0.67,
-      "dividend_yield_pct": 89.0,
-      "score": 70
-    },
-    {
-      "code": "7202",
-      "name": "Isuzu Motors Limited",
-      "close": 2116.0,
-      "tech_score": 35,
-      "tech_reasons": [
-        "MACDゴールデンクロス",
-        "52週安値圏から反発"
-      ],
-      "fundamental_score": 100,
-      "fundamental_reasons": [
-        "PER10.1倍（同業界内で割安水準）",
-        "PBR0.96倍（同業界内で割安水準）",
-        "配当利回り4.45%（相対的に高水準）"
-      ],
-      "per": 10.1,
-      "pbr": 0.96,
-      "dividend_yield_pct": 4.45,
-      "score": 68
-    },
-    {
-      "code": "3289",
-      "name": "Tokyu Fudosan Holdings Corporation",
-      "close": 1185.0,
+      "code": "3861",
+      "name": "Oji Holdings Corporation",
+      "close": 841.7,
       "tech_score": 30,
       "tech_reasons": [
-        "RSI27→反発"
+        "移動平均は上昇トレンド",
+        "RSI34（売られすぎ）"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER9.2倍（同業界内で割安水準）",
-        "PBR0.93倍（同業界内で割安水準）",
-        "配当利回り4.23%（相対的に高水準）"
+        "PER12.0倍（同業界内で割安水準）",
+        "PBR0.66倍（同業界内で割安水準）",
+        "配当利回り4.33%（相対的に高水準）"
       ],
-      "per": 9.2,
-      "pbr": 0.93,
-      "dividend_yield_pct": 4.23,
+      "per": 12.0,
+      "pbr": 0.66,
+      "dividend_yield_pct": 4.33,
       "score": 65
     },
     {
       "code": "5401",
       "name": "Nippon Steel Corporation",
-      "close": 629.4,
+      "close": 642.7,
       "tech_score": 30,
       "tech_reasons": [
         "移動平均は上昇トレンド",
-        "RSI33（売られすぎ）"
+        "RSI30（売られすぎ）"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER11.8倍（同業界内で割安水準）",
-        "PBR0.58倍（同業界内で割安水準）",
-        "配当利回り3.8%（相対的に高水準）"
+        "PER12.0倍（同業界内で割安水準）",
+        "PBR0.6倍（同業界内で割安水準）",
+        "配当利回り3.81%（相対的に高水準）"
       ],
-      "per": 11.8,
-      "pbr": 0.58,
-      "dividend_yield_pct": 3.8,
+      "per": 12.0,
+      "pbr": 0.6,
+      "dividend_yield_pct": 3.81,
       "score": 65
     },
     {
-      "code": "8253",
-      "name": "Credit Saison Co., Ltd.",
-      "close": 4237.0,
-      "tech_score": 28,
-      "tech_reasons": [
-        "RSI25（売られすぎ）",
-        "出来高増加(1.7倍)"
-      ],
-      "fundamental_score": 100,
-      "fundamental_reasons": [
-        "PER9.1倍（同業界内で割安水準）",
-        "PBR0.79倍（同業界内で割安水準）",
-        "配当利回り3.75%（相対的に高水準）"
-      ],
-      "per": 9.1,
-      "pbr": 0.79,
-      "dividend_yield_pct": 3.75,
-      "score": 64
-    },
-    {
-      "code": "1928",
-      "name": "Sekisui House, Ltd.",
-      "close": 3349.0,
+      "code": "7202",
+      "name": "Isuzu Motors Limited",
+      "close": 2119.0,
       "tech_score": 20,
       "tech_reasons": [
         "MACDゴールデンクロス"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER8.5倍（同業界内で割安水準）",
+        "PER10.1倍（同業界内で割安水準）",
         "PBR0.97倍（同業界内で割安水準）",
-        "配当利回り4.4%（相対的に高水準）"
+        "配当利回り4.44%（相対的に高水準）"
       ],
-      "per": 8.5,
+      "per": 10.1,
       "pbr": 0.97,
-      "dividend_yield_pct": 4.4,
+      "dividend_yield_pct": 4.44,
       "score": 60
     },
     {
-      "code": "7203",
-      "name": "Toyota Motor Corporation",
-      "close": 2910.5,
-      "tech_score": 10,
+      "code": "1928",
+      "name": "Sekisui House, Ltd.",
+      "close": 3372.0,
+      "tech_score": 20,
       "tech_reasons": [
-        "移動平均は上昇トレンド"
+        "MACDゴールデンクロス"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER8.3倍（同業界内で割安水準）",
-        "PBR0.92倍（同業界内で割安水準）",
-        "配当利回り3.45%（相対的に高水準）"
+        "PER8.6倍（同業界内で割安水準）",
+        "PBR0.97倍（同業界内で割安水準）",
+        "配当利回り4.36%（相対的に高水準）"
       ],
-      "per": 8.3,
-      "pbr": 0.92,
-      "dividend_yield_pct": 3.45,
-      "score": 55
+      "per": 8.6,
+      "pbr": 0.97,
+      "dividend_yield_pct": 4.36,
+      "score": 60
     },
     {
-      "code": "4183",
-      "name": "Mitsui Chemicals, Inc.",
-      "close": 2056.0,
-      "tech_score": 10,
+      "code": "6902",
+      "name": "DENSO Corporation",
+      "close": 1839.5,
+      "tech_score": 20,
       "tech_reasons": [
-        "移動平均は上昇トレンド"
+        "RSI35（売られすぎ）"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER11.5倍（同業界内で割安水準）",
-        "PBR0.85倍（同業界内で割安水準）",
-        "配当利回り3.54%（相対的に高水準）"
+        "PER11.8倍（同業界内で割安水準）",
+        "PBR0.9倍（同業界内で割安水準）",
+        "配当利回り4.05%（相対的に高水準）"
       ],
-      "per": 11.5,
-      "pbr": 0.85,
-      "dividend_yield_pct": 3.54,
-      "score": 55
+      "per": 11.8,
+      "pbr": 0.9,
+      "dividend_yield_pct": 4.05,
+      "score": 60
+    },
+    {
+      "code": "8253",
+      "name": "Credit Saison Co., Ltd.",
+      "close": 4260.0,
+      "tech_score": 20,
+      "tech_reasons": [
+        "RSI23（売られすぎ）"
+      ],
+      "fundamental_score": 100,
+      "fundamental_reasons": [
+        "PER9.1倍（同業界内で割安水準）",
+        "PBR0.79倍（同業界内で割安水準）",
+        "配当利回り3.78%（相対的に高水準）"
+      ],
+      "per": 9.1,
+      "pbr": 0.79,
+      "dividend_yield_pct": 3.78,
+      "score": 60
+    },
+    {
+      "code": "9022",
+      "name": "Central Japan Railway Company",
+      "close": 3673.0,
+      "tech_score": 20,
+      "tech_reasons": [
+        "RSI34（売られすぎ）"
+      ],
+      "fundamental_score": 100,
+      "fundamental_reasons": [
+        "PER6.5倍（同業界内で割安水準）",
+        "PBR0.67倍（同業界内で割安水準）",
+        "配当利回り88.0%（相対的に高水準）"
+      ],
+      "per": 6.5,
+      "pbr": 0.67,
+      "dividend_yield_pct": 88.0,
+      "score": 60
+    },
+    {
+      "code": "3289",
+      "name": "Tokyu Fudosan Holdings Corporation",
+      "close": 1189.5,
+      "tech_score": 20,
+      "tech_reasons": [
+        "RSI18（売られすぎ）"
+      ],
+      "fundamental_score": 100,
+      "fundamental_reasons": [
+        "PER9.3倍（同業界内で割安水準）",
+        "PBR0.93倍（同業界内で割安水準）",
+        "配当利回り4.22%（相対的に高水準）"
+      ],
+      "per": 9.3,
+      "pbr": 0.93,
+      "dividend_yield_pct": 4.22,
+      "score": 60
     }
   ]
 }
