@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-28T01:15:31.607285+00:00",
+  "generated_at_utc": "2026-10-29T01:46:15.719266+00:00",
   "universe_source": "wikipedia",
   "universe_size": 225,
   "analyzed_count": 225,
@@ -7,142 +7,122 @@
     {
       "code": "8253",
       "name": "Credit Saison Co., Ltd.",
-      "close": 4151.0,
+      "close": 4095.0,
       "tech_score": 50,
       "tech_reasons": [
-        "RSI33→反発",
+        "RSI32→反発",
         "MACDゴールデンクロス"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER8.9倍（同業界内で割安水準）",
-        "PBR0.77倍（同業界内で割安水準）",
-        "配当利回り3.85%（相対的に高水準）"
+        "PER8.8倍（同業界内で割安水準）",
+        "PBR0.76倍（同業界内で割安水準）",
+        "配当利回り3.86%（相対的に高水準）"
       ],
-      "per": 8.9,
-      "pbr": 0.77,
-      "dividend_yield_pct": 3.85,
+      "per": 8.8,
+      "pbr": 0.76,
+      "dividend_yield_pct": 3.86,
       "score": 75
+    },
+    {
+      "code": "5201",
+      "name": "AGC Inc.",
+      "close": 5443.0,
+      "tech_score": 30,
+      "tech_reasons": [
+        "RSI27→反発"
+      ],
+      "fundamental_score": 100,
+      "fundamental_reasons": [
+        "PER12.7倍（同業界内で割安水準）",
+        "PBR0.76倍（同業界内で割安水準）",
+        "配当利回り3.84%（相対的に高水準）"
+      ],
+      "per": 12.7,
+      "pbr": 0.76,
+      "dividend_yield_pct": 3.84,
+      "score": 65
     },
     {
       "code": "7004",
       "name": "Kanadevia Corporation",
-      "close": 1069.0,
+      "close": 1047.0,
       "tech_score": 30,
       "tech_reasons": [
-        "RSI31→反発"
+        "RSI34→反発"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER11.9倍（同業界内で割安水準）",
-        "PBR0.92倍（同業界内で割安水準）",
-        "配当利回り3.67%（相対的に高水準）"
+        "PER11.7倍（同業界内で割安水準）",
+        "PBR0.9倍（同業界内で割安水準）",
+        "配当利回り3.61%（相対的に高水準）"
       ],
-      "per": 11.9,
-      "pbr": 0.92,
-      "dividend_yield_pct": 3.67,
-      "score": 65
-    },
-    {
-      "code": "2768",
-      "name": "Sojitz Corporation",
-      "close": 5519.0,
-      "tech_score": 30,
-      "tech_reasons": [
-        "移動平均は上昇トレンド",
-        "MACDゴールデンクロス"
-      ],
-      "fundamental_score": 100,
-      "fundamental_reasons": [
-        "PER10.0倍（同業界内で割安水準）",
-        "PBR1.0倍（同業界内で割安水準）",
-        "配当利回り3.32%（相対的に高水準）"
-      ],
-      "per": 10.0,
-      "pbr": 1.0,
-      "dividend_yield_pct": 3.32,
+      "per": 11.7,
+      "pbr": 0.9,
+      "dividend_yield_pct": 3.61,
       "score": 65
     },
     {
       "code": "4183",
       "name": "Mitsui Chemicals, Inc.",
-      "close": 2135.5,
+      "close": 2109.5,
       "tech_score": 20,
       "tech_reasons": [
         "MACDゴールデンクロス"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER11.9倍（同業界内で割安水準）",
-        "PBR0.88倍（同業界内で割安水準）",
-        "配当利回り3.59%（相対的に高水準）"
+        "PER11.8倍（同業界内で割安水準）",
+        "PBR0.87倍（同業界内で割安水準）",
+        "配当利回り3.57%（相対的に高水準）"
       ],
-      "per": 11.9,
-      "pbr": 0.88,
-      "dividend_yield_pct": 3.59,
+      "per": 11.8,
+      "pbr": 0.87,
+      "dividend_yield_pct": 3.57,
       "score": 60
     },
     {
-      "code": "5201",
-      "name": "AGC Inc.",
-      "close": 5491.0,
-      "tech_score": 20,
+      "code": "5714",
+      "name": "Dowa Holdings Co., Ltd.",
+      "close": 8102.0,
+      "tech_score": 15,
       "tech_reasons": [
-        "RSI25（売られすぎ）"
+        "52週安値圏から反発"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER12.8倍（同業界内で割安水準）",
-        "PBR0.76倍（同業界内で割安水準）",
-        "配当利回り3.87%（相対的に高水準）"
+        "PER5.9倍（同業界内で割安水準）",
+        "PBR1.04倍（同業界内で割安水準）",
+        "配当利回り4.22%（相対的に高水準）"
       ],
-      "per": 12.8,
-      "pbr": 0.76,
-      "dividend_yield_pct": 3.87,
-      "score": 60
-    },
-    {
-      "code": "6471",
-      "name": "NSK Ltd.",
-      "close": 1026.5,
-      "tech_score": 45,
-      "tech_reasons": [
-        "RSI32→反発",
-        "52週安値圏から反発"
-      ],
-      "fundamental_score": 67,
-      "fundamental_reasons": [
-        "PBR0.73倍（同業界内で割安水準）",
-        "配当利回り3.42%（相対的に高水準）"
-      ],
-      "per": 15.8,
-      "pbr": 0.73,
-      "dividend_yield_pct": 3.42,
-      "score": 56
+      "per": 5.9,
+      "pbr": 1.04,
+      "dividend_yield_pct": 4.22,
+      "score": 58
     },
     {
       "code": "5406",
       "name": "Kobe Steel, Ltd.",
-      "close": 2041.5,
+      "close": 1998.5,
       "tech_score": 10,
       "tech_reasons": [
         "移動平均は上昇トレンド"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER11.9倍（同業界内で割安水準）",
-        "PBR0.64倍（同業界内で割安水準）",
-        "配当利回り3.94%（相対的に高水準）"
+        "PER11.7倍（同業界内で割安水準）",
+        "PBR0.63倍（同業界内で割安水準）",
+        "配当利回り3.92%（相対的に高水準）"
       ],
-      "per": 11.9,
-      "pbr": 0.64,
-      "dividend_yield_pct": 3.94,
+      "per": 11.7,
+      "pbr": 0.63,
+      "dividend_yield_pct": 3.92,
       "score": 55
     },
     {
       "code": "5401",
       "name": "Nippon Steel Corporation",
-      "close": 666.6,
+      "close": 656.4,
       "tech_score": 10,
       "tech_reasons": [
         "移動平均は上昇トレンド"
@@ -150,13 +130,32 @@
       "fundamental_score": 100,
       "fundamental_reasons": [
         "PER12.4倍（同業界内で割安水準）",
-        "PBR0.62倍（同業界内で割安水準）",
-        "配当利回り3.63%（相対的に高水準）"
+        "PBR0.61倍（同業界内で割安水準）",
+        "配当利回り3.62%（相対的に高水準）"
       ],
       "per": 12.4,
-      "pbr": 0.62,
-      "dividend_yield_pct": 3.63,
+      "pbr": 0.61,
+      "dividend_yield_pct": 3.62,
       "score": 55
+    },
+    {
+      "code": "6473",
+      "name": "JTEKT Corporation",
+      "close": 2017.0,
+      "tech_score": 40,
+      "tech_reasons": [
+        "移動平均は上昇トレンド",
+        "RSI33→反発"
+      ],
+      "fundamental_score": 67,
+      "fundamental_reasons": [
+        "PBR0.79倍（同業界内で割安水準）",
+        "配当利回り3.41%（相対的に高水準）"
+      ],
+      "per": 32.8,
+      "pbr": 0.79,
+      "dividend_yield_pct": 3.41,
+      "score": 54
     }
   ]
 }
