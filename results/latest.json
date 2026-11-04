@@ -1,161 +1,161 @@
 {
-  "generated_at_utc": "2026-11-03T03:26:45.003857+00:00",
+  "generated_at_utc": "2026-11-04T02:14:39.619319+00:00",
   "universe_source": "wikipedia",
   "universe_size": 225,
   "analyzed_count": 225,
   "top_candidates": [
     {
-      "code": "5714",
-      "name": "Dowa Holdings Co., Ltd.",
-      "close": 7896.0,
-      "tech_score": 40,
+      "code": "4183",
+      "name": "Mitsui Chemicals, Inc.",
+      "close": 1800.0,
+      "tech_score": 35,
       "tech_reasons": [
-        "RSI33（売られすぎ）",
-        "MACDゴールデンクロス"
+        "RSI20（売られすぎ）",
+        "出来高急増(3.2倍)"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER5.9倍（同業界内で割安水準）",
-        "PBR1.01倍（同業界内で割安水準）",
-        "配当利回り4.26%（相対的に高水準）"
+        "PER10.1倍（同業界内で割安水準）",
+        "PBR0.75倍（同業界内で割安水準）",
+        "配当利回り3.62%（相対的に高水準）"
       ],
-      "per": 5.9,
-      "pbr": 1.01,
-      "dividend_yield_pct": 4.26,
-      "score": 70
+      "per": 10.1,
+      "pbr": 0.75,
+      "dividend_yield_pct": 3.62,
+      "score": 68
     },
     {
-      "code": "7004",
-      "name": "Kanadevia Corporation",
-      "close": 1029.0,
+      "code": "4005",
+      "name": "Sumitomo Chemical Company, Limited",
+      "close": 508.7,
       "tech_score": 30,
       "tech_reasons": [
-        "RSI31→反発"
+        "移動平均は上昇トレンド",
+        "RSI24（売られすぎ）"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER11.6倍（同業界内で割安水準）",
-        "PBR0.88倍（同業界内で割安水準）",
-        "配当利回り3.72%（相対的に高水準）"
+        "PER8.1倍（同業界内で割安水準）",
+        "PBR0.73倍（同業界内で割安水準）",
+        "配当利回り3.52%（相対的に高水準）"
       ],
-      "per": 11.6,
-      "pbr": 0.88,
-      "dividend_yield_pct": 3.72,
+      "per": 8.1,
+      "pbr": 0.73,
+      "dividend_yield_pct": 3.52,
       "score": 65
     },
     {
       "code": "7202",
       "name": "Isuzu Motors Limited",
-      "close": 2037.5,
+      "close": 2030.0,
       "tech_score": 20,
       "tech_reasons": [
         "RSI29（売られすぎ）"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER9.8倍（同業界内で割安水準）",
+        "PER9.7倍（同業界内で割安水準）",
         "PBR0.93倍（同業界内で割安水準）",
         "配当利回り4.61%（相対的に高水準）"
       ],
-      "per": 9.8,
+      "per": 9.7,
       "pbr": 0.93,
       "dividend_yield_pct": 4.61,
       "score": 60
     },
     {
-      "code": "6902",
-      "name": "DENSO Corporation",
-      "close": 1860.5,
+      "code": "7004",
+      "name": "Kanadevia Corporation",
+      "close": 1007.0,
       "tech_score": 20,
       "tech_reasons": [
-        "MACDゴールデンクロス"
+        "RSI29（売られすぎ）"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER11.7倍（同業界内で割安水準）",
-        "PBR0.91倍（同業界内で割安水準）",
-        "配当利回り3.98%（相対的に高水準）"
+        "PER11.4倍（同業界内で割安水準）",
+        "PBR0.86倍（同業界内で割安水準）",
+        "配当利回り3.69%（相対的に高水準）"
       ],
-      "per": 11.7,
-      "pbr": 0.91,
-      "dividend_yield_pct": 3.98,
+      "per": 11.4,
+      "pbr": 0.86,
+      "dividend_yield_pct": 3.69,
       "score": 60
     },
     {
-      "code": "8253",
-      "name": "Credit Saison Co., Ltd.",
-      "close": 4099.0,
+      "code": "5714",
+      "name": "Dowa Holdings Co., Ltd.",
+      "close": 7614.0,
+      "tech_score": 20,
+      "tech_reasons": [
+        "RSI29（売られすぎ）"
+      ],
+      "fundamental_score": 100,
+      "fundamental_reasons": [
+        "PER5.7倍（同業界内で割安水準）",
+        "PBR0.98倍（同業界内で割安水準）",
+        "配当利回り4.28%（相対的に高水準）"
+      ],
+      "per": 5.7,
+      "pbr": 0.98,
+      "dividend_yield_pct": 4.28,
+      "score": 60
+    },
+    {
+      "code": "2768",
+      "name": "Sojitz Corporation",
+      "close": 5007.0,
       "tech_score": 20,
       "tech_reasons": [
         "RSI34（売られすぎ）"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER8.9倍（同業界内で割安水準）",
-        "PBR0.76倍（同業界内で割安水準）",
-        "配当利回り3.9%（相対的に高水準）"
+        "PER8.6倍（同業界内で割安水準）",
+        "PBR0.9倍（同業界内で割安水準）",
+        "配当利回り3.5%（相対的に高水準）"
       ],
-      "per": 8.9,
-      "pbr": 0.76,
-      "dividend_yield_pct": 3.9,
+      "per": 8.6,
+      "pbr": 0.9,
+      "dividend_yield_pct": 3.5,
       "score": 60
     },
     {
-      "code": "4005",
-      "name": "Sumitomo Chemical Company, Limited",
-      "close": 511.5,
-      "tech_score": 45,
+      "code": "3289",
+      "name": "Tokyu Fudosan Holdings Corporation",
+      "close": 1244.0,
+      "tech_score": 15,
       "tech_reasons": [
-        "移動平均は上昇トレンド",
-        "RSI31（売られすぎ）",
-        "出来高急増(4.8倍)"
+        "52週安値圏から反発"
       ],
-      "fundamental_score": 67,
+      "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER7.9倍（同業界内で割安水準）",
-        "PBR0.77倍（同業界内で割安水準）"
+        "PER9.7倍（同業界内で割安水準）",
+        "PBR0.97倍（同業界内で割安水準）",
+        "配当利回り4.05%（相対的に高水準）"
       ],
-      "per": 7.9,
-      "pbr": 0.77,
-      "dividend_yield_pct": 2.83,
-      "score": 56
+      "per": 9.7,
+      "pbr": 0.97,
+      "dividend_yield_pct": 4.05,
+      "score": 58
     },
     {
       "code": "5406",
       "name": "Kobe Steel, Ltd.",
-      "close": 2024.5,
+      "close": 1982.5,
       "tech_score": 10,
       "tech_reasons": [
         "移動平均は上昇トレンド"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER11.9倍（同業界内で割安水準）",
-        "PBR0.64倍（同業界内で割安水準）",
-        "配当利回り4.0%（相対的に高水準）"
+        "PER11.6倍（同業界内で割安水準）",
+        "PBR0.62倍（同業界内で割安水準）",
+        "配当利回り3.95%（相対的に高水準）"
       ],
-      "per": 11.9,
-      "pbr": 0.64,
-      "dividend_yield_pct": 4.0,
-      "score": 55
-    },
-    {
-      "code": "5401",
-      "name": "Nippon Steel Corporation",
-      "close": 657.3,
-      "tech_score": 10,
-      "tech_reasons": [
-        "移動平均は上昇トレンド"
-      ],
-      "fundamental_score": 100,
-      "fundamental_reasons": [
-        "PER12.3倍（同業界内で割安水準）",
-        "PBR0.61倍（同業界内で割安水準）",
-        "配当利回り3.65%（相対的に高水準）"
-      ],
-      "per": 12.3,
-      "pbr": 0.61,
-      "dividend_yield_pct": 3.65,
+      "per": 11.6,
+      "pbr": 0.62,
+      "dividend_yield_pct": 3.95,
       "score": 55
     }
   ]
