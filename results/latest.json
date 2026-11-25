@@ -1,163 +1,160 @@
 {
-  "generated_at_utc": "2026-11-24T05:57:28.699133+00:00",
+  "generated_at_utc": "2026-11-25T04:52:16.037083+00:00",
   "universe_source": "wikipedia",
   "universe_size": 225,
-  "analyzed_count": 223,
+  "analyzed_count": 225,
   "top_candidates": [
     {
       "code": "4183",
       "name": "Mitsui Chemicals, Inc.",
-      "close": 1640.0,
-      "tech_score": 45,
+      "close": 1594.5,
+      "tech_score": 30,
       "tech_reasons": [
-        "RSI29→反発",
-        "52週安値圏から反発"
+        "RSI35→反発"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER7.0倍（同業界内で割安水準）",
-        "PBR0.67倍（同業界内で割安水準）",
+        "PER6.8倍（同業界内で割安水準）",
+        "PBR0.65倍（同業界内で割安水準）",
         "配当利回り4.77%（相対的に高水準）"
       ],
-      "per": 7.0,
-      "pbr": 0.67,
+      "per": 6.8,
+      "pbr": 0.65,
       "dividend_yield_pct": 4.77,
-      "score": 72
+      "score": 65
     },
     {
-      "code": "5713",
-      "name": "Sumitomo Metal Mining Co., Ltd.",
-      "close": 5584.0,
-      "tech_score": 45,
+      "code": "9107",
+      "name": "Kawasaki Kisen Kaisha, Ltd.",
+      "close": 3038.0,
+      "tech_score": 30,
       "tech_reasons": [
-        "RSI18→反発",
-        "52週安値圏から反発"
+        "RSI28→反発"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER7.1倍（同業界内で割安水準）",
-        "PBR0.7倍（同業界内で割安水準）",
-        "配当利回り3.87%（相対的に高水準）"
+        "PER10.1倍（同業界内で割安水準）",
+        "PBR1.02倍（同業界内で割安水準）",
+        "配当利回り4.0%（相対的に高水準）"
       ],
-      "per": 7.1,
-      "pbr": 0.7,
-      "dividend_yield_pct": 3.87,
-      "score": 72
+      "per": 10.1,
+      "pbr": 1.02,
+      "dividend_yield_pct": 4.0,
+      "score": 65
     },
     {
       "code": "9101",
       "name": "Nippon Yusen Kabushiki Kaisha",
-      "close": 6698.0,
-      "tech_score": 40,
+      "close": 6652.0,
+      "tech_score": 30,
       "tech_reasons": [
         "移動平均は上昇トレンド",
-        "RSI31→反発"
+        "RSI27（売られすぎ）"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
         "PER8.8倍（同業界内で割安水準）",
-        "PBR0.85倍（同業界内で割安水準）",
+        "PBR0.84倍（同業界内で割安水準）",
         "配当利回り5.01%（相対的に高水準）"
       ],
       "per": 8.8,
-      "pbr": 0.85,
+      "pbr": 0.84,
       "dividend_yield_pct": 5.01,
-      "score": 70
-    },
-    {
-      "code": "7004",
-      "name": "Kanadevia Corporation",
-      "close": 953.0,
-      "tech_score": 35,
-      "tech_reasons": [
-        "MACDゴールデンクロス",
-        "52週安値圏から反発"
-      ],
-      "fundamental_score": 100,
-      "fundamental_reasons": [
-        "PER7.4倍（同業界内で割安水準）",
-        "PBR0.8倍（同業界内で割安水準）",
-        "配当利回り4.22%（相対的に高水準）"
-      ],
-      "per": 7.4,
-      "pbr": 0.8,
-      "dividend_yield_pct": 4.22,
-      "score": 68
+      "score": 65
     },
     {
       "code": "5019",
       "name": "Idemitsu Kosan Co.,Ltd.",
-      "close": 1176.0,
+      "close": 1167.0,
       "tech_score": 30,
       "tech_reasons": [
-        "RSI22→反発"
+        "RSI23→反発"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER10.6倍（同業界内で割安水準）",
-        "PBR0.82倍（同業界内で割安水準）",
+        "PER10.5倍（同業界内で割安水準）",
+        "PBR0.81倍（同業界内で割安水準）",
         "配当利回り3.81%（相対的に高水準）"
       ],
-      "per": 10.6,
-      "pbr": 0.82,
+      "per": 10.5,
+      "pbr": 0.81,
       "dividend_yield_pct": 3.81,
       "score": 65
     },
     {
-      "code": "5406",
-      "name": "Kobe Steel, Ltd.",
-      "close": 1901.5,
-      "tech_score": 30,
+      "code": "4005",
+      "name": "Sumitomo Chemical Company, Limited",
+      "close": 460.4,
+      "tech_score": 20,
       "tech_reasons": [
-        "RSI34→反発"
+        "RSI32（売られすぎ）"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER10.2倍（同業界内で割安水準）",
-        "PBR0.57倍（同業界内で割安水準）",
-        "配当利回り4.27%（相対的に高水準）"
+        "PER7.2倍（同業界内で割安水準）",
+        "PBR0.66倍（同業界内で割安水準）",
+        "配当利回り3.92%（相対的に高水準）"
       ],
-      "per": 10.2,
-      "pbr": 0.57,
-      "dividend_yield_pct": 4.27,
-      "score": 65
+      "per": 7.2,
+      "pbr": 0.66,
+      "dividend_yield_pct": 3.92,
+      "score": 60
     },
     {
-      "code": "5411",
-      "name": "JFE Holdings, Inc.",
-      "close": 1771.0,
-      "tech_score": 25,
+      "code": "9984",
+      "name": "SoftBank Group Corp.",
+      "close": 2718.0,
+      "tech_score": 20,
       "tech_reasons": [
-        "移動平均ゴールデンクロス"
+        "RSI26（売られすぎ）"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER12.1倍（同業界内で割安水準）",
-        "PBR0.43倍（同業界内で割安水準）",
-        "配当利回り4.59%（相対的に高水準）"
+        "PER11.5倍（同業界内で割安水準）",
+        "PBR0.94倍（同業界内で割安水準）",
+        "配当利回り36.0%（相対的に高水準）"
       ],
-      "per": 12.1,
-      "pbr": 0.43,
-      "dividend_yield_pct": 4.59,
-      "score": 62
+      "per": 11.5,
+      "pbr": 0.94,
+      "dividend_yield_pct": 36.0,
+      "score": 60
     },
     {
-      "code": "285A",
-      "name": "Kioxia Holdings Corporation",
-      "close": 8014.0,
-      "tech_score": 50,
+      "code": "5713",
+      "name": "Sumitomo Metal Mining Co., Ltd.",
+      "close": 5417.0,
+      "tech_score": 20,
       "tech_reasons": [
-        "RSI29→反発",
-        "MACDゴールデンクロス"
+        "RSI17（売られすぎ）"
       ],
-      "fundamental_score": 67,
+      "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER10.7倍（同業界内で割安水準）",
-        "配当利回り82.0%（相対的に高水準）"
+        "PER6.6倍（同業界内で割安水準）",
+        "PBR0.68倍（同業界内で割安水準）",
+        "配当利回り3.87%（相対的に高水準）"
       ],
-      "per": 10.7,
-      "pbr": 4.37,
-      "dividend_yield_pct": 82.0,
+      "per": 6.6,
+      "pbr": 0.68,
+      "dividend_yield_pct": 3.87,
+      "score": 60
+    },
+    {
+      "code": "7004",
+      "name": "Kanadevia Corporation",
+      "close": 930.0,
+      "tech_score": 15,
+      "tech_reasons": [
+        "52週安値圏から反発"
+      ],
+      "fundamental_score": 100,
+      "fundamental_reasons": [
+        "PER6.8倍（同業界内で割安水準）",
+        "PBR0.78倍（同業界内で割安水準）",
+        "配当利回り4.22%（相対的に高水準）"
+      ],
+      "per": 6.8,
+      "pbr": 0.78,
+      "dividend_yield_pct": 4.22,
       "score": 58
     }
   ]
