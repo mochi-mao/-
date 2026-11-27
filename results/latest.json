@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-26T04:06:25.361252+00:00",
+  "generated_at_utc": "2026-11-27T04:10:30.892153+00:00",
   "universe_source": "wikipedia",
   "universe_size": 225,
   "analyzed_count": 225,
@@ -7,158 +7,154 @@
     {
       "code": "5713",
       "name": "Sumitomo Metal Mining Co., Ltd.",
-      "close": 5796.0,
-      "tech_score": 45,
-      "tech_reasons": [
-        "RSI20→反発",
-        "52週安値圏から反発"
-      ],
-      "fundamental_score": 100,
-      "fundamental_reasons": [
-        "PER7.6倍（同業界内で割安水準）",
-        "PBR0.73倍（同業界内で割安水準）",
-        "配当利回り3.74%（相対的に高水準）"
-      ],
-      "per": 7.6,
-      "pbr": 0.73,
-      "dividend_yield_pct": 3.74,
-      "score": 72
-    },
-    {
-      "code": "5019",
-      "name": "Idemitsu Kosan Co.,Ltd.",
-      "close": 1202.5,
-      "tech_score": 45,
-      "tech_reasons": [
-        "RSI32→反発",
-        "52週安値圏から反発"
-      ],
-      "fundamental_score": 100,
-      "fundamental_reasons": [
-        "PER10.8倍（同業界内で割安水準）",
-        "PBR0.84倍（同業界内で割安水準）",
-        "配当利回り3.79%（相対的に高水準）"
-      ],
-      "per": 10.8,
-      "pbr": 0.84,
-      "dividend_yield_pct": 3.79,
-      "score": 72
-    },
-    {
-      "code": "7004",
-      "name": "Kanadevia Corporation",
-      "close": 952.0,
-      "tech_score": 35,
-      "tech_reasons": [
-        "MACDゴールデンクロス",
-        "52週安値圏から反発"
-      ],
-      "fundamental_score": 100,
-      "fundamental_reasons": [
-        "PER7.5倍（同業界内で割安水準）",
-        "PBR0.8倍（同業界内で割安水準）",
-        "配当利回り3.99%（相対的に高水準）"
-      ],
-      "per": 7.5,
-      "pbr": 0.8,
-      "dividend_yield_pct": 3.99,
-      "score": 68
-    },
-    {
-      "code": "3289",
-      "name": "Tokyu Fudosan Holdings Corporation",
-      "close": 1207.5,
-      "tech_score": 35,
-      "tech_reasons": [
-        "RSI31（売られすぎ）",
-        "52週安値圏から反発"
-      ],
-      "fundamental_score": 100,
-      "fundamental_reasons": [
-        "PER11.1倍（同業界内で割安水準）",
-        "PBR0.94倍（同業界内で割安水準）",
-        "配当利回り4.29%（相対的に高水準）"
-      ],
-      "per": 11.1,
-      "pbr": 0.94,
-      "dividend_yield_pct": 4.29,
-      "score": 68
-    },
-    {
-      "code": "4005",
-      "name": "Sumitomo Chemical Company, Limited",
-      "close": 463.2,
+      "close": 6117.0,
       "tech_score": 30,
       "tech_reasons": [
-        "RSI34→反発"
+        "RSI30→反発"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER7.4倍（同業界内で割安水準）",
-        "PBR0.66倍（同業界内で割安水準）",
-        "配当利回り3.85%（相対的に高水準）"
+        "PER7.3倍（同業界内で割安水準）",
+        "PBR0.77倍（同業界内で割安水準）",
+        "配当利回り3.84%（相対的に高水準）"
       ],
-      "per": 7.4,
-      "pbr": 0.66,
-      "dividend_yield_pct": 3.85,
+      "per": 7.3,
+      "pbr": 0.77,
+      "dividend_yield_pct": 3.84,
       "score": 65
     },
     {
       "code": "7202",
       "name": "Isuzu Motors Limited",
-      "close": 2015.5,
-      "tech_score": 20,
+      "close": 2067.0,
+      "tech_score": 15,
       "tech_reasons": [
-        "RSI31（売られすぎ）"
+        "52週安値圏から反発"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER9.9倍（同業界内で割安水準）",
-        "PBR0.91倍（同業界内で割安水準）",
-        "配当利回り4.7%（相対的に高水準）"
+        "PER10.2倍（同業界内で割安水準）",
+        "PBR0.94倍（同業界内で割安水準）",
+        "配当利回り4.67%（相対的に高水準）"
       ],
-      "per": 9.9,
-      "pbr": 0.91,
-      "dividend_yield_pct": 4.7,
-      "score": 60
+      "per": 10.2,
+      "pbr": 0.94,
+      "dividend_yield_pct": 4.67,
+      "score": 58
     },
     {
-      "code": "7261",
-      "name": "Mazda Motor Corporation",
-      "close": 1070.5,
-      "tech_score": 20,
+      "code": "4183",
+      "name": "Mitsui Chemicals, Inc.",
+      "close": 1646.0,
+      "tech_score": 15,
       "tech_reasons": [
-        "RSI28（売られすぎ）"
+        "52週安値圏から反発"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER5.4倍（同業界内で割安水準）",
-        "PBR0.35倍（同業界内で割安水準）",
-        "配当利回り5.12%（相対的に高水準）"
+        "PER7.1倍（同業界内で割安水準）",
+        "PBR0.67倍（同業界内で割安水準）",
+        "配当利回り4.72%（相対的に高水準）"
       ],
-      "per": 5.4,
-      "pbr": 0.35,
-      "dividend_yield_pct": 5.12,
-      "score": 60
+      "per": 7.1,
+      "pbr": 0.67,
+      "dividend_yield_pct": 4.72,
+      "score": 58
     },
     {
-      "code": "6472",
-      "name": "NTN Corporation",
-      "close": 307.9,
-      "tech_score": 20,
+      "code": "4005",
+      "name": "Sumitomo Chemical Company, Limited",
+      "close": 474.1,
+      "tech_score": 15,
       "tech_reasons": [
-        "RSI33（売られすぎ）"
+        "52週安値圏から反発"
       ],
       "fundamental_score": 100,
       "fundamental_reasons": [
-        "PER12.1倍（同業界内で割安水準）",
-        "PBR0.62倍（同業界内で割安水準）",
-        "配当利回り4.04%（相対的に高水準）"
+        "PER7.5倍（同業界内で割安水準）",
+        "PBR0.68倍（同業界内で割安水準）",
+        "配当利回り3.9%（相対的に高水準）"
       ],
-      "per": 12.1,
-      "pbr": 0.62,
-      "dividend_yield_pct": 4.04,
-      "score": 60
+      "per": 7.5,
+      "pbr": 0.68,
+      "dividend_yield_pct": 3.9,
+      "score": 58
+    },
+    {
+      "code": "5406",
+      "name": "Kobe Steel, Ltd.",
+      "close": 1933.5,
+      "tech_score": 15,
+      "tech_reasons": [
+        "52週安値圏から反発"
+      ],
+      "fundamental_score": 100,
+      "fundamental_reasons": [
+        "PER10.3倍（同業界内で割安水準）",
+        "PBR0.58倍（同業界内で割安水準）",
+        "配当利回り4.23%（相対的に高水準）"
+      ],
+      "per": 10.3,
+      "pbr": 0.58,
+      "dividend_yield_pct": 4.23,
+      "score": 58
+    },
+    {
+      "code": "2768",
+      "name": "Sojitz Corporation",
+      "close": 4910.0,
+      "tech_score": 15,
+      "tech_reasons": [
+        "52週安値圏から反発"
+      ],
+      "fundamental_score": 100,
+      "fundamental_reasons": [
+        "PER8.4倍（同業界内で割安水準）",
+        "PBR0.88倍（同業界内で割安水準）",
+        "配当利回り3.77%（相対的に高水準）"
+      ],
+      "per": 8.4,
+      "pbr": 0.88,
+      "dividend_yield_pct": 3.77,
+      "score": 58
+    },
+    {
+      "code": "1925",
+      "name": "Daiwa House Industry Co., Ltd.",
+      "close": 2327.5,
+      "tech_score": 10,
+      "tech_reasons": [
+        "移動平均は上昇トレンド"
+      ],
+      "fundamental_score": 100,
+      "fundamental_reasons": [
+        "PER10.1倍（同業界内で割安水準）",
+        "PBR0.97倍（同業界内で割安水準）",
+        "配当利回り4.0%（相対的に高水準）"
+      ],
+      "per": 10.1,
+      "pbr": 0.97,
+      "dividend_yield_pct": 4.0,
+      "score": 55
+    },
+    {
+      "code": "1928",
+      "name": "Sekisui House, Ltd.",
+      "close": 3492.0,
+      "tech_score": 10,
+      "tech_reasons": [
+        "移動平均は上昇トレンド"
+      ],
+      "fundamental_score": 100,
+      "fundamental_reasons": [
+        "PER8.9倍（同業界内で割安水準）",
+        "PBR1.01倍（同業界内で割安水準）",
+        "配当利回り4.16%（相対的に高水準）"
+      ],
+      "per": 8.9,
+      "pbr": 1.01,
+      "dividend_yield_pct": 4.16,
+      "score": 55
     }
   ]
 }
